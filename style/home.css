@@ -116,7 +116,7 @@ section {
 .judul-utama-banner {
   position: relative;
   min-height: 350px;
-  background: url('/assets/gambar/web/logokatar.png') center no-repeat;
+  background: url('../assets/gambar/web/logokatar.png') center no-repeat;
   background-size: 22em;
   background-color: #ffffff;
   display: flex;
