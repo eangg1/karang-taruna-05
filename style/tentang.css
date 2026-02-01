@@ -1,5 +1,5 @@
 :root {
-  --bg: #ffffff;
+  --bg: #f8f9fa;
   --text: #222;
   --primary: #2f80ed;
   --secondary: #f2f2f2;
@@ -93,6 +93,7 @@ main {
 /* ================= SECTION (30px SEMUA) ================= */
 .section-tentang,
 .section-visi-misi,
+.section-sponsor,
 .section-kontak {
   padding: 30px 0;
 }
@@ -104,7 +105,8 @@ main {
 
 /* Selang-seling background */
 .section-tentang,
-.section-kontak {
+.section-kontak,
+.section-sponsor{
   background-color: #f8f9fa;
 }
 
@@ -123,8 +125,7 @@ main {
   margin-top: 2px;
 }
 
-.section-visi-misi,
-.section-sponsor {
+.section-visi-misi {
   background-color: #ffffff;
 }
 
@@ -160,6 +161,58 @@ main {
 .maps iframe {
   border-radius: 10px;
 }
+
+/* ================= PENDAFTARAN ================= */
+.section-pendaftaran {
+  padding: 60px 20px;
+  background: #ffffff;
+  text-align: center;
+}
+
+.section-pendaftaran h2 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.section-pendaftaran .desc {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  color: #555;
+}
+
+.pendaftaran-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.card-daftar {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 40px;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-daftar img {
+  width: 100px;
+  margin-bottom: 15px;
+}
+
+.card-daftar span {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.card-daftar:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
 
 /* ================= SPONSOR ================= */
 .section-sponsor {
